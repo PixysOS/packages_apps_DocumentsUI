@@ -16,7 +16,7 @@
 
 <resources>
     <!-- Intentionally unset. Vendors should set this in an overlay. -->
-    <string name="trusted_quick_viewer_package" translatable="false"></string>
+    <string name="trusted_quick_viewer_package" translatable="false">com.google.android.apps.docs</string>
 
     <!-- Indicates if DocumentsUI should handle VIEW_DOWNLOADS Intent.
     on ARC++ devices, there exists another handler which handles VIEW_DOWNLOADS Intent. -->
@@ -27,7 +27,7 @@
     <bool name="full_bar_search_view">true</bool>
 
     <!-- Indicates if showing as search bar design -->
-    <bool name="show_search_bar">false</bool>
+    <bool name="show_search_bar">true</bool>
 
     <!-- Indicates if showing hidden files by default -->
     <bool name="show_hidden_files_by_default">false</bool>
@@ -35,7 +35,7 @@
     <string name="default_root_uri" translatable="false">content://com.android.providers.downloads.documents/root/downloads</string>
     <!-- The value is used in sorting process on Drawer menu. If the root's package name
      start with it, the item will have higher order than others.-->
-    <string name="preferred_root_package" translatable="false">com.android.shell</string>
+    <string name="preferred_root_package" translatable="false">com.google.android</string>
 
     <string name="datetime_format_12" translatable="false">MMM dd, yyyy, h:mm a</string>
     <string name="datetime_format_24" translatable="false">MMM dd, yyyy, H:mm</string>
@@ -65,7 +65,7 @@
     <bool name="config_default_show_device_root">false</bool>
 
     <!-- Whether to show capitalize string on Button -->
-    <bool name="config_button_all_caps">true</bool>
+    <bool name="config_button_all_caps">false</bool>
 
     <!-- This option allows us to hide the Files app icon from launcher on Android Go device.
     Android Go device will have Files Go app for file management. -->
